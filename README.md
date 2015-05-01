@@ -1,2 +1,3 @@
-# video2relax
-your video to relax, meditate or enjoy the true beauty of nature
+# video2relax Github page
+
+Jekyll theme based on [Freelancer bootstrap theme ](http://startbootstrap.com/templates/freelancer/)

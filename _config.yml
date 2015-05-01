@@ -1,0 +1,42 @@
+# Site settings
+title: video2relax
+email: phiobos@gmx.de
+url: https://www.video2relax.com
+description: "video2relax your mobile app for android and iOS to access scenic videos with original nature sounds, perfectly to relax, meditate or just enjoy the true beauty of nature. Use is free of charge. Premium content accessible on request for minimal charge. video2relax is a non-for-profit organisation. All profits will be donated for nature conservation projects."
+
+# Contact form: comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 00c1ff #80e0ff
+  secondary: 233140 #ff5700
+  secondary-dark: 100000 #ff5700
+
+# Footer settings
+footer:
+  copyright: video2relax | Benjamin Scharf
+  location: Cologne
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: youtube
+    url: https://www.youtube.com/user/video2relax
+  - title: vimeo-square
+    url: https://vimeo.com/video2relax
+  - title: twitter
+    url: https://twitter.com/video2relax
+  - title: facebook
+    url: https://facebook.com/video2relax 
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Franz-Kreuter-Str. 4
+  - line: D-50823 Cologne, Germany
+
+# Credits content
+credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+
+# Build settings
+markdown: kramdown
+permalink: pretty
