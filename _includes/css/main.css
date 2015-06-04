@@ -179,9 +179,22 @@ section h2 {
     font-size: 3em;
 }
 
+section.contact,
 section.success {
     color: #fff;
     background: #{{ site.color.primary }};
+}
+
+section.contact input,
+section.contact label,
+section.contact textarea {
+    color: #fff;
+}
+
+section.contact input[placeholder],
+section.contact ::-moz-placeholder, /* firefox 19+ */
+section.contact input:-moz-placeholder {
+    color: #fff;
 }
 
 @media(max-width:767px) {
