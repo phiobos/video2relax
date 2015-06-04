@@ -1,50 +1,47 @@
-    <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-4">
-                        <!--  <h3>video2relax</h3>       -->
-                        <!--  align: cente hat nicht funktion, muss ich bei css etwas machen?       -->
-                        <img class="img-responsive center-block" src="img/Schrift_video2relax.png" width=30% heigt=auto alt="video2relax">
-                        <p>
-
-                                Franz-Kreuter-Str. 4 <br>
-
-                                D-50823 Cologne, Germany <br>
-
-                        </p>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>{{ site.footer.social }}</h3>
-                        <ul class="list-inline">
-                            {% for network in site.social %}
-                            <li>
-                                <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
-                            </li>
-                            {% endfor %}
-                        </ul>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Intersting to know</h3>
-                        <p>video2relax is a non-for-profit organisation. All profits will be donated for <a href="http://www.prima-klima-weltweit.de/englisch_2010/index.php">nature conservation projects</a>.</p>
-                    </div>
+<footer class="text-center">
+    <div class="footer-above">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col col-md-4">
+                    <!--  <h3>video2relax</h3>       -->
+                    <!--  align: cente hat nicht funktion, muss ich bei css etwas machen?       -->
+                    <img class="img-responsive center-block" src="img/Schrift_video2relax.png" width=30% heigt=auto alt="video2relax">
+                    <p>
+                        Franz-Kreuter-Str. 4
+                        <br> D-50823 Cologne, Germany
+                        <br>
+                    </p>
+                </div>
+                <div class="footer-col col-md-4">
+                    <h3>{{ site.footer.social }}</h3>
+                    <ul class="list-inline">
+                        {% for network in site.social %}
+                        <li>
+                            <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="footer-col col-md-4">
+                    <h3>Intersting to know</h3>
+                    <p>video2relax is a non-for-profit organisation. All profits will be donated for <a href="http://www.prima-klima-weltweit.de/englisch_2010/index.php">nature conservation projects</a>.</p>
                 </div>
             </div>
         </div>
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                         Copyright &copy; 20{{ site.time | date: '%y' }} {{ site.footer.copyright }}
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll visible-xs visible-sm">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
     </div>
+    <div class="footer-below">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    Copyright &copy; 20{{ site.time | date: '%y' }} {{ site.footer.copyright }}
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+<div class="scroll-top page-scroll visible-xs visible-sm">
+    <a class="btn btn-primary" href="#page-top">
+        <i class="fa fa-chevron-up"></i>
+    </a>
+</div>
