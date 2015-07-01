@@ -21,13 +21,11 @@ footer:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: youtube
-    url: https://www.youtube.com/user/video2relax
-  - title: vimeo-square
-    url: https://vimeo.com/video2relax
+    url: https://www.youtube.com/channel/UCnpgckaEKVfqSyNkp_98wiA
   - title: twitter
     url: https://twitter.com/video2relax
   - title: facebook
-    url: https://facebook.com/video2relax 
+    url: https://www.facebook.com/video2relax?ref=profile
 
 # Postal address (add as many lines as necessary)
 address:
